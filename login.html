@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Logo Seguridad 24/7" style="max-width: 100px;">
+        <h2>Iniciar Sesión</h2>
+        <input type="text" placeholder="Usuario" id="usuario">
+        <input type="password" placeholder="Contraseña" id="contraseña">
+        <button>Iniciar Sesión</button>
+        <a href="#">¿Olvidaste tu contraseña?</a>
+        <button id="directo">Ingresar sin registrarse</button>
+    </div>
+    <script>
+        document.getElementById('directo').addEventListener('click', () => {
+            window.location.href = 'principal.html';
+        });
+    </script>
+</body>
+</html>

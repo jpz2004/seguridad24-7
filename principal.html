@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>¡Bienvenido, Usuario de Prueba!</h2>
+        <p>Ubicación: Bogotá</p>
+        <img src="profile.png" alt="Foto del Usuario" style="max-width: 100px; border-radius: 50%;">
+        
+        <!-- Botón para volver al inicio -->
+        <button id="volver-inicio">Volver al Inicio</button>
+
+        <!-- Botones de alerta -->
+        <div class="alert-buttons">
+            <button id="llamada-emergencia">Llamada de Emergencia</button>
+            <button id="alerta-barrial">Alerta Barrial</button>
+            <button id="otros-asuntos">Otros Asuntos</button>
+        </div>
+    </div>
+
+    <script>
+        // Navegar al inicio
+        document.getElementById('volver-inicio').addEventListener('click', () => {
+            window.location.href = 'index.html';
+        });
+
+        // Acciones para los botones de alerta
+        document.getElementById('llamada-emergencia').addEventListener('click', () => {
+            alert('Realizando llamada de emergencia...');
+        });
+
+        document.getElementById('alerta-barrial').addEventListener('click', () => {
+            alert('Se ha enviado una alerta barrial.');
+        });
+
+        document.getElementById('otros-asuntos').addEventListener('click', () => {
+            alert('Por favor, especifique el asunto en el formulario correspondiente.');
+        });
+    </script>
+</body>
+</html>
