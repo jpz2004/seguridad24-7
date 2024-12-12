@@ -59,4 +59,12 @@ if (volverInicio) {
         window.location.href = 'login.html';
     });
 }
+// Redirección al hacer clic en "Ingresar"
+document.getElementById('ingresar').addEventListener('click', () => {
+    window.location.href = 'login.html'; // Cambia a la página de inicio de sesión
+});
 
+// Redirección al hacer clic en "Registrar"
+document.getElementById('registro').addEventListener('click', () => {
+    window.location.href = 'registro.html'; // Cambia a la página de registro
+});
