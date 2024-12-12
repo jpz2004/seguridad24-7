@@ -1,0 +1,148 @@
+body {
+    background: linear-gradient(180deg, #001aff, #00c3ff, #00c3ff, #001aff); /* Fondo degradado rojo-blanco-rojo */
+    background-attachment: fixed; /* Fondo fijo */
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.container {
+    text-align: center;
+    background: rgb(123, 231, 252);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Estilo para los inputs del formulario */
+form input {
+    margin-bottom: 5px; /* Espacio entre las casillas */
+    padding: 3px;       /* Espaciado interno para hacer más grandes los inputs */
+    width: 200%;         /* Para que ocupen todo el ancho del contenedor */
+    box-sizing: border-box; /* Evita que el padding afecte el ancho total */
+}
+
+/* Opcional: Alinear el formulario al centro */
+form {
+    display:flex;
+    flex-direction: column; /* Alinear los inputs en columna */
+    align-items: center;    /* Centrar los elementos en el contenedor */
+    gap: 3px;              /* Espaciado uniforme entre los inputs */
+    width: 50%;            /* Ancho completo del formulario */
+    max-width: 400px;       /* Limitar el ancho máximo */
+    margin: 0 auto;         /* Centrar el formulario en la página */
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    display: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #000000;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    display: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #000dff;
+}
+
+button {
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button#ingresar {
+    background-color: #007bff;
+    color: white;
+}
+
+button#registro {
+    background-color: #000000;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    h1, h2 {
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+}
+
+/* Estilo del botón de volver al inicio */
+#volver-inicio {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor:alias;
+}
+
+#volver-inicio:hover {
+    background-color: #ffffff;
+}
+
+/* Contenedor para los botones de alerta */
+.alert-buttons {
+    position:fixed;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    padding: 5px;
+    }
+
+/* Botones de alerta */
+.alert-buttons button {
+    flex: 10;
+    margin: 0 5px;
+    padding: 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style:oblique;
+    border: #000000,5px;
+    border-radius: 22px;
+    cursor: pointer;
+    font-weight:bolder;
+}
+
+#llamada-emergencia {
+    background: linear-gradient(130deg,  #C0C0C0, #C0C0C0,  #C0C0C0); 
+    color: rgb(0, 0, 0);
+}
+
+#alerta-barrial {
+    background: linear-gradient(130deg,  #C0C0C0, #C0C0C0,  #C0C0C0); 
+    color: rgb(0, 0, 0);
+}
+
+#otros-asuntos {
+    background: linear-gradient(130deg,  #C0C0C0, #C0C0C0,  #C0C0C0); 
+    color: rgb(0, 0, 0);
+}
+
