@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(130deg, red,white,red); /* Fondo degradado */
+    background: linear-gradient(130deg, #000000,#111111,#000000); /* Fondo degradado */
     background-attachment: fixed; /* Fondo fijo */
     font-family: 'Times New Roman', Times, serif;
     margin: 100;
