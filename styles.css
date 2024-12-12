@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(130deg, #000000,#111111,#000000); /* Fondo degradado */
+    background: linear-gradient(130deg, #ff0000,#000000,#ffffff); /* Fondo degradado */
     background-attachment: fixed; /* Fondo fijo */
     font-family: 'Times New Roman', Times, serif;
     margin: 100;
@@ -106,17 +106,17 @@ button#registro {
 }
 
 #llamada-emergencia {
-    background-color: #dc3545;
+    background-color: #FF0000;
     color: white;
 }
 
 #alerta-barrial {
-    background-color: #ffc107;
+    background-color: #FFFF00;
     color: black;
 }
 
 #otros-asuntos {
-    background-color: #17a2b8;
+    background-color: #00ff22;
     color: white;
 }
 
