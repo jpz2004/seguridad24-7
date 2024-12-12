@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(130deg, #ff0000,#000000,#ffffff); /* Fondo degradado */
+    background: linear-gradient(130deg, #ff0000, #ffffff, #ff0000); /* Fondo degradado rojo-blanco-rojo */
     background-attachment: fixed; /* Fondo fijo */
     font-family: 'Times New Roman', Times, serif;
     margin: 100;
@@ -103,20 +103,21 @@ button#registro {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 #llamada-emergencia {
-    background-color: #FF0000;
+    background-color: #FF4500; /* Rojo brillante */
     color: white;
 }
 
 #alerta-barrial {
-    background-color: #FFFF00;
+    background-color: #FFD700; /* Amarillo oro */
     color: black;
 }
 
 #otros-asuntos {
-    background-color: #00ff22;
+    background-color: #32CD32; /* Verde lima */
     color: white;
 }
 
