@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(130deg, yellow,turquoise,yellow); /* Fondo degradado */
+    background: linear-gradient(130deg, red,white,ping); /* Fondo degradado */
     background-attachment: fixed; /* Fondo fijo */
     font-family: 'Times New Roman', Times, serif;
     margin: 100;
@@ -8,7 +8,7 @@ body {
 
 {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
     align-items: center;
