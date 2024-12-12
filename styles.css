@@ -2,8 +2,8 @@ body {
     background: linear-gradient(130deg, yellow,turquoise,yellow); /* Fondo degradado */
     background-attachment: fixed; /* Fondo fijo */
     font-family: 'Times New Roman', Times, serif;
-    margin: 10;
-    padding: 10;
+    margin: 100;
+    padding: 100;
 }
 
 {
